@@ -160,7 +160,7 @@
   height: 32px;
   border-radius: 16px;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 500px) {
   .youtube-logo{
     content: url("../channel-pictures/youtube-svgrepo-com.svg");
     height: 30px;
