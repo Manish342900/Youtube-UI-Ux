@@ -41,9 +41,17 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+    z-index: 150px;
   }
-  
-  @media (max-width: 750px) {
+  @media screen and (max-width: 460px) {
+    .video-grid {
+      grid-template-columns: 1fr;
+      margin-top: 70px;
+      margin-bottom: 50px;
+    }
+  }
+
+  @media (min-width: 460px) and (max-width: 751px) {
     .video-grid {
       grid-template-columns: 1fr 1fr;
     }

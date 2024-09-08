@@ -160,3 +160,30 @@
   height: 32px;
   border-radius: 16px;
 }
+@media screen and (max-width: 460px) {
+  .youtube-logo{
+    content: url("../channel-pictures/youtube-svgrepo-com.svg");
+    height: 30px;
+    transform: translateX(20px);
+  }
+  .hamburger-menu{
+    display: none;
+  }
+  .middle-section{
+    margin-left: 70px;
+    margin-right: 20px;
+  }
+  .youtube-apps-icon{
+    display: none;
+  }
+  .right-section{
+    justify-content: start;
+    margin-right: 0px;
+  }
+  .current-user-picture{
+    margin-left: 10px;
+  }
+  .upload-icon{
+    display: none;
+  }
+}
