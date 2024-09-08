@@ -31,7 +31,7 @@
   font-size: 10px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
   .sidebar {
     display: flex;
     align-items: center;

@@ -43,7 +43,7 @@
     row-gap: 40px;
     z-index: 150px;
   }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 450px) {
     .video-grid {
       grid-template-columns: 1fr;
       margin-top: 70px;
@@ -51,7 +51,7 @@
     }
   }
 
-  @media (min-width: 460px) and (max-width: 751px) {
+  @media (min-width: 450px) and (max-width: 751px) {
     .video-grid {
       grid-template-columns: 1fr 1fr;
     }
