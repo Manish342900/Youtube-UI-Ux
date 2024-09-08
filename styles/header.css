@@ -171,6 +171,7 @@
   }
   .middle-section{
     transform: translateX(30px);
+    margin: auto auto;
     
   }
   .youtube-apps-icon{
@@ -185,5 +186,10 @@
   }
   .upload-icon{
     display: none;
+  }
+  .search-button{
+    width: 40px;
+    margin-right: 0;
+
   }
 }
